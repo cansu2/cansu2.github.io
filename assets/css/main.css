@@ -9,7 +9,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: 'EB Garamond', serif;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -20,9 +20,9 @@ body {
 
 /* Titles */
 h1,h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', serif;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 300;
-    color: #333;
+    color: rgb(145, 140, 140);
 }
 
 
@@ -101,16 +101,18 @@ a:after {
 
 #headerwrap h1 {
 	margin-top: 150px;
-	color: white;
-	font-size: 70px;
-	font-weight: 700;
+	color: dimgray;
+	background-color:khaki;
+	font-size: 50px;
+	font-weight: 400;
+	width:700px;
 }
 
 #headerwrap h3 {
 	color: white;
 	font-size: 30px;
 	font-weight: 100;
-    font-family: 'EB Garamond', serif;
+    font-family: "Courier New", Courier, monospace;
     font-style: oblique;
 }
 
@@ -180,7 +182,7 @@ a:after {
 
 .menu h1.logo a {
 
-	font-family: 'Oswald', serif;
+	font-family: "Courier New", Courier, monospace;
 
 	font-size: 16px;
 	font-weight: 700;
@@ -313,4 +315,21 @@ a:after {
 			transition: all .1s ease-in-out;
 }
 
+.keyword {
+	font-style: italic;
+	font-weight:100px;
+	font-size:17px;
+	padding:5px;
+}
 
+.blurryImg {
+    opacity: 0.3;
+
+}
+
+.blurry:hover  .blurryImg{
+    opacity: 0.8
+}
+.blurry:hover  .keyword{
+   color:white;
+}
